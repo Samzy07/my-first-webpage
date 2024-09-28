@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>My First Webpage</title>
+</head>
+
+<style>
+   body {
+      margin: 2px;
+      font-family: Roboto, Arial, sans-serif;
+   }
+
+   h1 {
+      background: green;
+      font-size: 30px;
+      color: white;
+      display: flex;
+      justify-Content: center;
+      padding: 40px;
+
+   }
+
+   h2 {
+      margin-left: 10px;
+   }
+
+   a {
+      padding: 10px;
+      font-size: 15px;
+   }
+
+   img {
+      height: 500px;
+      width: 100%;
+      margin-top: 10px;
+   }
+
+   p {
+      display: flex;
+      font-size: 10px;
+      margin: 30px;
+      text-align: center;
+
+   }
+
+   tr {
+      background-color: white;
+      width: 50px;
+      text-align: center;
+   }
+
+   form {
+      margin: 15px;
+   }
+
+   #message {
+      height: 100px;
+      width: 200px;
+      display: flex;
+      
+      
+   }
+
+   div a {
+      text-decoration: none;
+      color: green;
+      font-size: 20px;
+      Margin: 10px;
+   }
+
+   a {
+      text-decoration: none;
+      font-size: 20px;
+   }
+
+   a:hover {
+      color: hotpink;
+   }
+
+   p {
+      font-size: 20px;
+   }
+
+   .webpage {
+      margin-top: 50px;
+   }
+
+   .information {
+      Margin-top: 50px;
+
+   }
+
+   .contact {
+      margin-top: 50px;
+   }
+
+   .webpage ul li {
+      margin-top: 10px;
+   }
+</style>
+
+<body>
+
+   <div>
+
+      <h1>My First Webpage</h1>
+
+      <a href="#Webpage">Webpage Content</a>
+      <a href="#Information">Information Table</a>
+      <a href="#Contact">Contact Info</a>
+
+   </div>
+
+   <div>
+
+      <img src="img.jpeg" alt="">
+
+      <p>This is a simple paragraph describing the content of the webpage. it explains the purpose of the page and
+         provides some basic information about what user can expect to find.</p>
+
+   </div>
+
+
+   <a href="https://www.techyjaunt.com/" target="">Visit Techjaunt</a>
+
+
+   <div class="webpage">
+
+      <h2 id="Webpage">Webpage Content</h2>
+
+      <ul>
+         <li>Introduction</li>
+         <li>Table of Information</li>
+         <li>Contact info</li>
+      </ul>
+
+   </div>
+
+
+   <div class="information">
+
+      <h2 id="Information">Information Table</h2>
+
+      <table bgcolor="black" width="400px" height="200px">
+
+         <tr>
+
+            <th>Items</th>
+            <th>Description</th>
+            <th>Quantity</th>
+
+         </tr>
+
+         <tr>
+
+            <td>pens</td>
+            <td>Blue ink pen</td>
+            <td>5</td>
+
+         </tr>
+
+         <tr>
+
+            <td>Notebooks</td>
+            <td>Spiral bound Notebooks</td>
+            <td>3</td>
+
+         </tr>
+
+         <tr>
+
+            <td>Markers</td>
+            <td>Permanent Markers</td>
+            <td>2</td>
+
+         </tr>
+
+      </table>
+
+      <div class="contact">
+
+         <h2 id="Contact">Contact Info</h2>
+
+
+         <form>
+            <label>Name: </label>
+            <input type="name">
+         </form>
+
+         <form>
+            <label>Email:</label>
+            <input type="email" >
+         </form>
+
+         <form>
+            <label>Password:</label>
+            <input type="password">
+         </form>
+
+         <form>
+            <label>Gender</label>
+
+            <input type="checkbox" name="">
+            <label>Male</label>
+
+            <input type="checkbox" name="">
+            <label>Female</label>
+         </form>
+
+         <form>
+            <label>Subscribe</label>
+            <input type="checkbox" name="">
+            <label>Yes, i want to subscribe</label>
+         </form>
+
+         <form>
+            <label>Number of Items</label>
+            <input type="number" name="">
+         </form>
+
+         <form>
+            <label>Date</label>
+            <input type="date" name="" id="">
+         </form>
+
+         <form>
+            <label>Message</label>
+            <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+         </form>
+
+         <form>
+            <input type="button" value="Submit">
+         </form>
+
+
+      </div>
+
+
+</body>
+
+</html>
